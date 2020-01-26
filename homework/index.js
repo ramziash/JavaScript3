@@ -71,7 +71,11 @@
         return;
       }
       // const ul = createAndAppend('ul', root);
-      repos.forEach(repo => addInfo(repo));
+      repos
+        .sort((a, b) => {
+          return a.name.localeCompare(b.name); //copied from the documentation
+        })
+        .forEach(repo => addInfo(repo));
     });
   }
 
