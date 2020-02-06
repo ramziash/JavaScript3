@@ -1,3 +1,100 @@
+@media screen and (max-width:1080px){
+  .main-container{
+      flex-direction: column;
+  }
+  .repo-container{
+      width: 100%;
+  }
+  .contributors-container{
+      width: 100%;
+      padding-right: 0;
+  }
+  .cont-all{
+      width:100%;
+      margin-left:0;
+  }
+  .each-contributor{
+      margin: 1em auto;
+  }
+}
+
 .alert-error {
   color: red;
+  display: flex;
+  width: 95%;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: pink;
+  margin: auto;
+  padding-left: 1em;
+  margin-top: 0.25em;
 }
+
+body{
+  font-family: 'Roboto';
+}
+.header{
+  display: flex;
+  width: 95%;
+  color: white;
+  background-color: darkblue;
+  margin: auto;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.repo-select{
+  height: 2em;
+  margin:1.3em;
+  background-color: white;
+  color:black;
+}
+
+
+.block{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  box-sizing: border-box;
+  color: black;
+  background-color: white;
+  width: 95%;
+  margin: 1em auto;
+  border: 2px solid black;
+}
+
+.cont-all{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+ }
+
+ .each-contributor{
+  display: flex;
+  width: 90%;
+  margin-top:1em;
+  color:#325a59;
+  border: 2px solid black;
+  padding: 1.25em;
+  box-sizing: border-box;
+ }
+ 
+ .each-contributor img{
+  height: 6.45em;
+  padding-right:1em;
+   
+ }
+
+  .main-container{
+    display: flex;
+    padding: 1em;
+    margin: auto;
+  }
+  .repo-container{
+    width: 65%;
+  }
+
+
+
+
