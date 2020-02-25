@@ -70,7 +70,7 @@ body{
   margin-left: 1em;
  }
 
- .each-contributor{
+ .each-cont{
   display: flex;
   width: 90%;
   margin-top:1em;
@@ -80,7 +80,7 @@ body{
   box-sizing: border-box;
  }
  
- .each-contributor img{
+ .each-cont img{
   height: 6.45em;
   padding-right:1em;
    
@@ -95,6 +95,21 @@ body{
     width: 65%;
   }
 
+  .cont-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cont-name {
+    padding:0.75em;
+      
+  }
+  .num-contributions{
+    width: fit-content;  
+    background-color: lightslategray;
+    color: aliceblue;
+    border-radius: 20px;
+  }
 
 
 
