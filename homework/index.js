@@ -89,8 +89,8 @@
       const contributorSegment = createAndAppend('div', segment, { class: 'contributor-segment' });
 
       // here we start creating the repo segments and fixing the first view just like requested.
-      repoDetails(repoSegment, repos[0]);
-      contributorsInfo(contributorSegment, repos[0].contributors_url)
+      await repoDetails(repoSegment, repos[0]);
+      await contributorsInfo(contributorSegment, repos[0].contributors_url)
 
       //finally changing the view depending on whats selected from the select drop down menu.
       select.onchange = function () {
