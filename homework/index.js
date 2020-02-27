@@ -2,10 +2,8 @@
 
 {
   async function fetchJSON(url) {
-    const fetchPromise = await axios.get(url).then(response => {
-      return response.data
-    })
-    return fetchPromise
+    const fetchPromise = await axios.get(url);
+    return fetchPromise.data;
   }
 
   function createAndAppend(name, parent, options = {}) {
