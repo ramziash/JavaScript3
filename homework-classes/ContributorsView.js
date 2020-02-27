@@ -19,8 +19,7 @@
      * @param {Object[]} contributors An array of contributor objects
      */
     render(contributors) {
-      // TODO: replace this comment and the console.log with your own code
-
+      
       // this is used to remove the previous contributors, or else they will stack on top of each other
       this.container.innerHTML = ''
 
